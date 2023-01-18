@@ -60,7 +60,7 @@ export default function Services() {
           <div className="container">
             <Advertising className="flexSpaceCenter">
               <AddLeft>
-                <h4 className="font16 semiBold">Our philosophy</h4>
+                <h4 className="font16 semiBold">Our test</h4>
                 <h2 className="font40 extraBold">Learn by Doing</h2>
                 <p className="font15">
                   We are strong believers that the application of theory in the form of problem solving
