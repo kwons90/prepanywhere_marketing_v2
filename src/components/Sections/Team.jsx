@@ -34,7 +34,7 @@ export default function Team() {
             <div className="col-xs-12 col-sm-4 col-md-4 col-lg-4">
               <ProfileBox
                 name="Sang-Hyuk Kwon"
-                title="Head of Business"
+                title="Chief Growth Officer"
                 alma_mater="MIT"
                 exp_yrs="2 years"
                 img={KwonImage}

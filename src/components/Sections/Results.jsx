@@ -46,7 +46,7 @@ export default function Results() {
             <div className="col-xs-12 col-sm-4 col-md-4 col-lg-4">
               <ProjectBox
                 img={ProjectImg1}
-                name="Olivie Nie"
+                name="Olivia Nie"
                 subject="7 in IB Higher Level Math"
                 school="Harvard University"
                 text="A.B. in Government"
