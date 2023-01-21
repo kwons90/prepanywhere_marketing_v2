@@ -47,7 +47,7 @@ export default function Results() {
               <ProjectBox
                 img={ProjectImg1}
                 name="Olivia Nie"
-                subject="7 in IB Higher Level Math"
+                subject="7/7 in IB Higher Level Math"
                 school="Harvard University"
                 text="A.B. in Government"
               />
@@ -76,7 +76,7 @@ export default function Results() {
               <ProjectBox
                 img={ProjectImg4}
                 name="Raymond Jang"
-                subject="5 in Calculus BC"
+                subject="5/5 in AP Calculus BC"
                 school="Northwetern University"
                 text="B.S. Physics"
               />
