@@ -32,7 +32,7 @@ export default function FAQ() {
               <br />
               <h2 className="font18 semiBold">Is PrepBox better than in-person tutoring?</h2>
               <p className="font15">
-              We made PrepBox to be able to deliver the same quality of math tutoring that amazing tutors whose ability, care, and attention can lift students to greater heights in 1-on-1 settings. Our founder, Min Lee, was one of these tutors, and we designed PrepBox to deliver even better results than Min’s track record. We have trained 2,000 students on older versions of PrepBox and have sent 500+ students to top universities such as Harvard, Upenn, McGill, and University of Toronto, and we can confidently assure you that we are committed to only improving on this track record.
+              We made PrepBox to be able to deliver the same quality of math tutoring that amazing tutors whose ability, care, and attention can lift students to greater heights in 1-on-1 settings. Our founder, Min Lee, was one of these tutors, and we designed PrepBox to deliver even better results than Min’s track record. We have trained 2,000 students on older versions of PrepBox and have sent 500+ students to top universities such as Harvard, UPenn, McGill, and University of Toronto, and we can confidently assure you that we are committed to only improving on this track record.
               </p>
               <br />
               <h2 className="font18 semiBold">What is learning by doing and how does it work?</h2>
