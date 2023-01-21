@@ -8,6 +8,7 @@ import Team from "../components/Sections/Team";
 import Pricing from "../components/Sections/Pricing";
 import Contact from "../components/Sections/Contact";
 import Footer from "../components/Sections/Footer"
+import FAQ from "../components/Sections/FAQ"
 
 export default function Landing() {
   return (
@@ -17,6 +18,7 @@ export default function Landing() {
       <Services />
       <Results />
       <Team />
+      <FAQ />
       {/* <Pricing /> */}
       <Contact />
       <Footer />
