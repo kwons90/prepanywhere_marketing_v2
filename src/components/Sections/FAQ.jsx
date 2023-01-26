@@ -19,7 +19,7 @@ export default function FAQ() {
               <br />
               <h2 className="font18 semiBold">Who should use PrepBox?</h2>
               <p className="font15">
-              Any student above 6th grade that wants to improve on his or her mathematical foundations and become better problem-solvers. Our programs cover all subjects from 6th grade to AP Calculus BC or IB Higher Level, ranging from algebra and factoring to advanced calculus
+              Any student above 6th grade that wants to improve on his or her mathematical foundations and become better problem-solvers. Our programs cover all subjects from 6th grade to AP Calculus BC or IB Higher Level, ranging from algebra and factoring to advanced calculus.
               </p>
               <br />
               <h2 className="font18 semiBold">How is PrepBox different from other online tutoring services?</h2>
