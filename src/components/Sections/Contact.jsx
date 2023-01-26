@@ -14,7 +14,7 @@ export default function Contact() {
           <HeaderInfo>
             <h1 className="font40 extraBold">Let's get in touch</h1>
             <p className="font18">
-              Schedule an assessment with us or send us query to minlee@prepanywhere.com
+              Schedule an assessment with us or send us query to info@prepanywhere.com
             </p>
           </HeaderInfo>
           <BtnWrapper>
