@@ -15,7 +15,7 @@ export default function Team() {
           <HeaderInfo>
             <h1 className="font40 extraBold">Tutors</h1>
             <p className="font15">
-              The PrepBox team is composed of graduates from top schools and are tutors on the platform.
+              The PrepBox team is composed of graduates from top schools and are tutors on the platform
               <br />
               
             </p>
