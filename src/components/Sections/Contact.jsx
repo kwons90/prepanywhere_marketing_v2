@@ -14,14 +14,21 @@ export default function Contact() {
           <HeaderInfo>
             <h1 className="font40 extraBold">Let's get in touch</h1>
             <p className="font18">
-              Schedule an assessment with us or send us query to info@prepanywhere.com
+              Schedule a demo or an assessment with us or send us query to info@prepanywhere.com
             </p>
           </HeaderInfo>
+          <BttnContainer>
           <BtnWrapper>
-            <a href="https://calendly.com/d/hw9-7wv-n3y/assessment">
-            <FullButton title="Schedule assessment" />
+            <a href="https://calendly.com/sanghyuk-kwon/30min?">
+            <FullButton title="Book a demo (30m)" />
             </a>
           </BtnWrapper>
+          <BtnWrapper>
+            <a href="https://calendly.com/d/hw9-7wv-n3y/assessment">
+            <FullButton title="Schedule assessment (60m)" />
+            </a>
+          </BtnWrapper>
+          </BttnContainer>
           <div className="lightBg"/>
         </div>
         
@@ -30,6 +37,13 @@ export default function Contact() {
     </Wrapper>
   );
 }
+
+const BttnContainer = styled.div`
+  padding: 0px 0 30px 0;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+`;
 
 const Wrapper = styled.section`
   width: 100%;
@@ -62,8 +76,8 @@ const Form = styled.form`
   }
 `;
 const BtnWrapper = styled.div`
-  max-width: 190px;
-  padding-bottom: 80px;
+  max-width: 240px;
+  padding-bottom: 30px;
   @media (max-width: 960px) {
     margin: 0 auto;
   }
