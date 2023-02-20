@@ -12,6 +12,7 @@ export default function FAQ() {
       <div className="container">
       <HeaderInfo>
             <h1 className="font40 extraBold">Frequently Asked Questions</h1>
+            <br />
             <h2 className="font18 semiBold">What is PrepBox?</h2>
               <p className="font15">
               PrepBox is an iPad application that delivers world-class math tutoring experience through an interactive platform that iterates between lectures and problems under the guidance of an experienced tutor to facilitate rapid grasp of fundamental concepts and help the students become better problem-solvers. After completing our 1-hour assessment, students embark on a journey of their own pace, where they watch our lectures, apply the concepts to solve challenging problems supported by our hints and solution reviews, and get their answers reviewed by our A.I. and expert tutors on the platform.
@@ -38,11 +39,6 @@ export default function FAQ() {
               <h2 className="font18 semiBold">What is learning by doing and how does it work?</h2>
               <p className="font15">
               Taking after MIT’s educational motto, mens et manus (mind and hand), we believe that the application of theory is equally as important as the theory itself in education. This philosophy is core in our product design, as PrepBox iterates between lectures and problems in 10-15 minute intervals, facilitating quicker understanding of the concepts by the students as they immediately apply the lessons learned onto problem sets, embodying our slogan “learn by doing”.
-              </p>
-              <br />
-              <h2 className="font18 semiBold">How much does PrepBox cost?</h2>
-              <p className="font15">
-              You can attend PrepBox sessions at $25 / hour, during which our experienced tutors are present. In order to ensure education outcomes, we require a minimum attendance of one 2-hour session per week, totaling a minimum payment of $200 / month. During the term of the sale, the student has access to our question banks and lectures.
               </p>
               <br />
               <h2 className="font18 semiBold">Does PrepBox assign homework?</h2>
@@ -75,6 +71,7 @@ export default function FAQ() {
 
 const Wrapper = styled.section`
   width: 100%;
+  padding: 30px;
 `;
 const HeaderInfo = styled.div`
   @media (max-width: 860px) {

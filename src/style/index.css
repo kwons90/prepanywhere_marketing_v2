@@ -65,8 +65,27 @@
     margin: 0 auto;
     padding: 0px 30px;
   }
+  .containerLeft {
+    width: 65%;
+    max-width: 1220px;
+    margin: 0 auto;
+    padding: 0px 30px;
+  }
+  .divider {
+    width:100%;
+    display:flex;
+    flex-direction:row;
+    justify-content: flex-start;
+    max-width: 1220px;
+    margin: 0 auto;
+    padding: 10px 30px 40px;
+    flex-grow: 4;
+  }
   @media only screen and (max-width: 859px) {
     .container {
+      padding: 0 15px;
+    }
+    .containerLeft {
       padding: 0 15px;
     }
   }
@@ -155,16 +174,24 @@
     font-size: 0.813rem; 
   }
   .headerMain {
-    font-size: 3.75rem;
+    font-size: 3.00rem;
     line-height: 4.5rem;
     position: relative;
     z-index: 100;
     font-weight: 800!important;
   }
   .headerBody {
-    font-size: 1.125rem;
+    font-size: 1.5rem;
     position: relative;
+    line-height: 50px;
     font-weight: 600!important;
+    z-index: 100;
+  }
+  .headerList {
+    font-size: 1.5rem;
+    position: relative;
+    line-height: 45px;
+    font-weight: 300;
     z-index: 100;
   }
   .font14 {
@@ -245,7 +272,7 @@
     color: #0B093B;
   }
   .purpleColor {
-    color: rgb(0, 0, 0);
+    color: #7620FF;
   }
   .orangeColor {
     color: #F2B300;

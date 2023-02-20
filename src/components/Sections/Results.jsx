@@ -15,31 +15,15 @@ import HarvardCase from "../../assets/img/students/olivia-nie-linkedin.png";
 
 export default function Results() {
   return (
-    <Wrapper id="projects" >
+    <Wrapper id="results" >
       <div className="whiteBg">
-      <div className="container">
+      <div className="container" style={{padding: '30px'}}>
       <HeaderInfo>
-            <h1 className="font40 extraBold">Our Results</h1>
-              <p className="font15">
-                Over 500 students have gone onto North America's top universities
+            <h1 className="font40 extraBold">Our Student Outcomes</h1>
+              <p className="font18">
+                We have taught over 2,000 students, and over 500 of our students have gone onto graduate from North America's top universities
               </p>
         </HeaderInfo>
-          <Advertising className="flexSpaceCenter">
-            <AddLeft>
-              <AddLeftInner>
-                <ImgWrapper className="flexCenter">
-                  <img className="radius8" src={HarvardCase} alt="add" />
-                </ImgWrapper>
-              </AddLeftInner>
-            </AddLeft>
-            <AddRight>
-              <h4 className="font15 semiBold">PrepBox student case study</h4>
-              <h2 className="font40 extraBold">Beyond Graduation</h2>
-              <p className="font15">
-                Our program graduates remember us even after college graduation. We are proud to have produced these outcomes.
-              </p>
-            </AddRight>
-          </Advertising>
         </div>
         <div className="container">
           <div className="row textCenter">
@@ -77,7 +61,7 @@ export default function Results() {
                 img={ProjectImg4}
                 name="Raymond Jang"
                 subject="5/5 in AP Calculus BC"
-                school="Northwetern University"
+                school="Northwestern University"
                 text="B.S. Physics"
               />
             </div>
@@ -100,6 +84,22 @@ export default function Results() {
               />
             </div>
           </div>
+          {/* <Advertising className="flexSpaceCenter">
+            <AddLeft>
+              <AddLeftInner>
+                <ImgWrapper className="flexCenter">
+                  <img className="radius8" src={HarvardCase} alt="add" />
+                </ImgWrapper>
+              </AddLeftInner>
+            </AddLeft>
+            <AddRight>
+              <h4 className="font15 semiBold">PrepBox student case study</h4>
+              <h2 className="font40 extraBold">Beyond Graduation</h2>
+              <p className="font15">
+                Our program graduates remember us even after college graduation. We are proud to have produced these outcomes.
+              </p>
+            </AddRight>
+          </Advertising> */}
           <div className="row flexCenter">
             <div style={{ margin: "50px 0", width: "200px" }}>
               
@@ -107,12 +107,23 @@ export default function Results() {
           </div>
         </div>
       </div>
+      {/* <div className="lightBg">
+        <div className="lightBg" style={{padding: '30px'}}>
+        <div className="container">
+          <HeaderInfo>
+            <h1 className="font40 extraBold">Our Best Student Moments</h1>
+            <p className="font15">
+              We are loved by the students and the parents, who learn through PrepBox, and we intend to keep it this way
+            </p>
+          </HeaderInfo>
+        </div>
+      </div> */}
       <div className="lightBg">
-        <div className="lightBg" style={{padding: '80px'}}>
+        <div className="lightBg" style={{padding: '50px'}}>
         <div className="container">
           <HeaderInfo>
             <h1 className="font40 extraBold">Testimonials</h1>
-            <p className="font15">
+            <p className="font18">
               We are loved by the students and the parents, who learn through PrepBox, and we intend to keep it this way
             </p>
           </HeaderInfo>
@@ -120,6 +131,7 @@ export default function Results() {
         </div>
       </div>
       </div>
+      {/* </div> */}
     </Wrapper>
   );
 }
@@ -133,15 +145,15 @@ const HeaderInfo = styled.div`
   }
 `;
 const Advertising = styled.div`
-  padding: 180px 0 670px;
+  padding: 180px 0 540px;
   margin: 100px 0;
   position: relative;
   @media (max-width: 1160px) {
-    padding: 60px 0 550px 0;
+    padding: 120px 0 430px 0;
   }
   @media (max-width: 860px) {
     flex-direction: column;
-    padding: 0 0 30px 0px;
+    padding: 20px 0 10px 0px;
     margin: 80px 0 0px 0;
   }
 `;

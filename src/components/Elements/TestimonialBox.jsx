@@ -9,10 +9,10 @@ export default function TestimonialBox({ text, author }) {
       <QuoteWrapper>
         <QuoteIcon />
       </QuoteWrapper>
-      <p className="whiteColor font12" style={{ paddingBottom: "30px" }}>
+      <p className="whiteColor font16" style={{ paddingBottom: "30px" }}>
         {text}
       </p>
-      <p className="blueColor font12" style={{alignSelf: 'flex-end'}}>
+      <p className="blueColor font16" style={{alignSelf: 'flex-end'}}>
         <em>{author}</em>
       </p>
     </Wrapper>

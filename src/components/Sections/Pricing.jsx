@@ -9,60 +9,59 @@ export default function Pricing() {
       <div className="whiteBg">
         <div className="container">
           <HeaderInfo>
-            <h1 className="font40 extraBold">Check Our Pricing</h1>
-            <p className="font13">
-              Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut
-              <br />
-              labore et dolore magna aliquyam erat, sed diam voluptua.
+            <h1 className="font40 extraBold">Our Pricing</h1>
+            <p className="font18">
+              Beginning at $14 per hour, we offer the highest-quality math tutoring at the most competitive rates
+
             </p>
           </HeaderInfo>
           <TablesWrapper className="flexSpaceNull">
             <TableBox>
               <PricingTable
-                icon="roller"
-                price="$29,99/mo"
-                title="Starter"
-                text="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor."
-                offers={[
-                  { name: "Product Offer", cheked: true },
-                  { name: "Offer", cheked: true },
-                  { name: "Product Offer #2", cheked: false },
-                  { name: "Product", cheked: false },
-                  { name: "Product Offer", cheked: false },
-                ]}
-                action={() => alert("clicked")}
-              />
-            </TableBox>
-            <TableBox>
-              <PricingTable
-                icon="monitor"
-                price="$49,99/mo"
+                // icon="roller"
+                price="$200,00/mo"
                 title="Basic"
-                text="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor."
+                text="One 2-hour sessions per week."
                 offers={[
-                  { name: "Product Offer", cheked: true },
-                  { name: "Offer", cheked: true },
-                  { name: "Product Offer #2", cheked: true },
-                  { name: "Product", cheked: true },
-                  { name: "Product Offer", cheked: false },
+                  { name: "Weekly sessions", cheked: true },
+                  { name: "Schoolwork help", cheked: true },
+                  { name: "Rescheduling", cheked: false },
+                  { name: "Homework assignment", cheked: false },
+                  // { name: "Product Offer", cheked: false },
                 ]}
-                action={() => alert("clicked")}
+                link="https://buy.stripe.com/fZe28B02n7robYYcMO"
               />
             </TableBox>
             <TableBox>
               <PricingTable
-                icon="browser"
-                price="$59,99/mo"
-                title="Golden"
-                text="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor."
+                // icon="monitor"
+                price="$350,00/mo"
+                title="Accelerated"
+                text="Two 2-hour sessions per week."
                 offers={[
-                  { name: "Product Offer", cheked: true },
-                  { name: "Offer", cheked: true },
-                  { name: "Product Offer #2", cheked: true },
-                  { name: "Product", cheked: true },
-                  { name: "Product Offer", cheked: true },
+                  { name: "Weekly sessions", cheked: true },
+                  { name: "Schoolwork help", cheked: true },
+                  { name: "Rescheduling", cheked: true },
+                  { name: "Homework assignment", cheked: false },
+                  // { name: "Product Offer", cheked: false },
                 ]}
-                action={() => alert("clicked")}
+                link="https://buy.stripe.com/5kA7sVcP97roaUUdQU"
+              />
+            </TableBox>
+            <TableBox>
+              <PricingTable
+                // icon="browser"
+                price="$450,00/mo"
+                title="Light Speed"
+                text="Unlimited sessions per week."
+                offers={[
+                  { name: "Weekly sessions", cheked: true },
+                  { name: "Schoolwork help", cheked: true },
+                  { name: "Rescheduling", cheked: true },
+                  { name: "Homework assignment", cheked: true },
+                  // { name: "Product Offer", cheked: true },
+                ]}
+                link="https://buy.stripe.com/5kA8wZ3ezfXU9QQ6oz"
               />
             </TableBox>
           </TablesWrapper>
@@ -74,7 +73,7 @@ export default function Pricing() {
 
 const Wrapper = styled.section`
   width: 100%;
-  padding: 50px 0;
+  padding: 50px 0 80px;
 `;
 const HeaderInfo = styled.div`
   margin-bottom: 50px;

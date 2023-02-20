@@ -12,16 +12,27 @@ export default function Header() {
     <Wrapper id="home" className="container flexSpaceCenter">
       <LeftSide className="flexCenter">
         <div>
-          <h1 className="headerMain">PrepBox <br /> learn by doing</h1>
-          <HeaderP className="headerBody semiBold" >
-            20+ years of math tutoring experience that have sent 500+ students to North America's 
+          <h1 className="headerMain"> Learn by doing with the world's #1 online tutor</h1>
+          <ul className="headerList">
+            <li> 
+              <p><span style={{color: "#228B22" }}>✔</span> Proven lectures and questions </p>
+            </li>
+            <li>
+              <p><span style={{color: "#228B22" }}>✔</span> Tutors with 20+ yrs of experience </p>
+            </li>
+            <li>
+              <p><span style={{color: "#228B22" }}>✔</span> Courses designed <em>just for you </em></p>
+            </li>
+          </ul>
+          {/* <HeaderP className="headerBody semiBold" >
+            Work with our best tutors that have 20+ years of math tutoring experience that have sent 500+ students to North America's 
             top universities distilled into an interactive tablet application
-          </HeaderP>
-          <BtnWrapper>
+          </HeaderP> */}
+          {/* <BtnWrapper>
             <a href="https://calendly.com/d/hw9-7wv-n3y/assessment">
             <FullButton title="Schedule assessment" />
             </a>
-          </BtnWrapper>
+          </BtnWrapper> */}
         </div>
       </LeftSide>
       <RightSide>
@@ -48,13 +59,14 @@ const Wrapper = styled.section`
   }
 `;
 const LeftSide = styled.div`
-  width: 50%;
+  width: 70%;
   height: 100%;
   @media (max-width: 960px) {
     width: 100%;
     order: 2;
     margin: 50px 0;
     text-align: center;
+    line-height: 1.5px;
   }
   @media (max-width: 560px) {
     margin: 80px 0 50px 0;
@@ -86,7 +98,7 @@ const BtnWrapper = styled.div`
   }
 `;
 const GreyDiv = styled.div`
-  width: 30%;
+  width: 50%;
   height: 700px;
   position: absolute;
   top: 0;
@@ -108,7 +120,7 @@ const ImageWrapper = styled.div`
 `;
 const Img = styled.img`
   @media (max-width: 560px) {
-    width: 80%;
+    width: 70%;
     height: auto;
   }
 `;
