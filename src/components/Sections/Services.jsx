@@ -279,6 +279,7 @@ const AddImgWrapp1 = styled.div`
 const AddImgWrapp2 = styled.div`
   width: 100%;
   margin: 0 0% 10px -5%;
+  padding: 0 0 30px 0;
   img {
     width: 100%;
     height: auto;
