@@ -288,6 +288,14 @@ const AddImgWrapp2 = styled.div`
     -webkit-box-shadow: 0 2px 15px rgba(0, 0, 0, 0.3);
     -moz-box-shadow: 0 2px 15px rgba(0, 0, 0, 0.3);
   }
+  @media (max-width: 860px) {
+    flex-direction: column;
+    width: 120%;
+    padding: 10px 5px 10px 5px;
+    img {
+      width: 135%;
+    }
+  }
 `;
 const AddImgWrapp3 = styled.div`
   width: 100%;
