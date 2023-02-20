@@ -57,7 +57,7 @@ const Wrapper = styled.section`
 `;
 const HeaderInfo = styled.div`
   margin-bottom: 20px;
-  padding-top: 30px;
+  padding-top: 40px;
   @media (max-width: 860px) {
     text-align: center;
   }

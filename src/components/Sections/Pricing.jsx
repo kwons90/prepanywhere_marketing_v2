@@ -18,7 +18,7 @@ export default function Pricing() {
             <TableBox>
               <PricingTable
                 // icon="roller"
-                price="$200,00/mo"
+                price="$200.00/mo"
                 title="Basic"
                 text="One 2-hour sessions per week."
                 offers={[
@@ -34,7 +34,7 @@ export default function Pricing() {
             <TableBox>
               <PricingTable
                 // icon="monitor"
-                price="$350,00/mo"
+                price="$350.00/mo"
                 title="Accelerated"
                 text="Two 2-hour sessions per week."
                 offers={[
@@ -50,7 +50,7 @@ export default function Pricing() {
             <TableBox>
               <PricingTable
                 // icon="browser"
-                price="$450,00/mo"
+                price="$450.00/mo"
                 title="Light Speed"
                 text="Unlimited sessions per week."
                 offers={[
