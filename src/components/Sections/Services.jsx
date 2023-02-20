@@ -64,7 +64,7 @@ export default function Services() {
             </Advertising>
           </div>
         </div>
-        <div className="container" style={{ padding: "0 0px 30px 30px" }} >
+        <div className="container" style={{ padding: "50px 0px 30px 30px" }} >
         <HeaderInfo>
             <h1 className="font40 extraBold">How does it work?</h1>
             {/* <p className="font18">
