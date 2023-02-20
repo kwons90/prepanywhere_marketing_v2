@@ -2,7 +2,7 @@ import React from "react";
 import styled from "styled-components";
 // Components
 import ProjectBox from "../Elements/ProjectBox";
-import FullButton from "../Buttons/FullButton";
+// import FullButton from "../Buttons/FullButton";
 import TestimonialSlider from "../Elements/TestimonialSlider";
 // Assets
 import ProjectImg1 from "../../assets/img/students/olivie-nie.png";
@@ -11,19 +11,19 @@ import ProjectImg3 from "../../assets/img/students/esther-sohn2.png";
 import ProjectImg4 from "../../assets/img/students/raymond-jang.png";
 import ProjectImg5 from "../../assets/img/students/mike-woo.png";
 import ProjectImg6 from "../../assets/img/students/kimberly-seaman.png";
-import HarvardCase from "../../assets/img/students/olivia-nie-linkedin.png";
+// import HarvardCase from "../../assets/img/students/olivia-nie-linkedin.png";
 
 export default function Results() {
   return (
     <Wrapper id="results" >
-      <div className="whiteBg">
-      <div className="container" style={{padding: '30px'}}>
-      <HeaderInfo>
+      <div className="lightBg" style={{padding: '30px 0px 50px 0px'}}>
+        <div className="container">
+          <HeaderInfo>
             <h1 className="font40 extraBold">Our Student Outcomes</h1>
               <p className="font18">
                 We have taught over 2,000 students, and over 500 of our students have gone onto graduate from North America's top universities
               </p>
-        </HeaderInfo>
+          </HeaderInfo>
         </div>
         <div className="container">
           <div className="row textCenter">
@@ -100,11 +100,6 @@ export default function Results() {
               </p>
             </AddRight>
           </Advertising> */}
-          <div className="row flexCenter">
-            <div style={{ margin: "50px 0", width: "200px" }}>
-              
-            </div>
-          </div>
         </div>
       </div>
       {/* <div className="lightBg">
@@ -118,8 +113,7 @@ export default function Results() {
           </HeaderInfo>
         </div>
       </div> */}
-      <div className="lightBg">
-        <div className="lightBg" style={{padding: '50px'}}>
+      <div className="whiteBg" style={{padding: '30px 0px 30px 0px'}}>
         <div className="container">
           <HeaderInfo>
             <h1 className="font40 extraBold">Testimonials</h1>
@@ -130,7 +124,6 @@ export default function Results() {
           <TestimonialSlider />
         </div>
       </div>
-      </div>
       {/* </div> */}
     </Wrapper>
   );
@@ -138,83 +131,85 @@ export default function Results() {
 
 const Wrapper = styled.section`
   width: 100%;
+  padding-top: 30px;
 `;
 const HeaderInfo = styled.div`
+  padding-top: 30px;
   @media (max-width: 860px) {
     text-align: center;
   }
 `;
-const Advertising = styled.div`
-  padding: 180px 0 540px;
-  margin: 100px 0;
-  position: relative;
-  @media (max-width: 1160px) {
-    padding: 120px 0 430px 0;
-  }
-  @media (max-width: 860px) {
-    flex-direction: column;
-    padding: 20px 0 10px 0px;
-    margin: 80px 0 0px 0;
-  }
-`;
-const ButtonsRow = styled.div`
-  @media (max-width: 860px) {
-    justify-content: space-between;
-  }
-`;
-const AddLeft = styled.div`
-  position: relative;
-  padding: 0;
-  width: 90%;
-  p {
-    max-width: 475px;
-  }
-  @media (max-width: 860px) {
-    width: 80%;
-    order: 2;
-    text-align: center;
-    h2 {
-      line-height: 3rem;
-      margin: 0px 0;
-    }
-    p {
-      margin: 0 auto;
-    }
-  }
-`;
-const AddRight = styled.div`
-  width: 60%;
-  @media (max-width: 860px) {
-    width: 80%;
-    order: 2;
-  }
-`;
-const AddLeftInner = styled.div`
-  width: 100%;
-  position: absolute;
-  top: -300px;
-  left: 0;
-  @media (max-width: 1190px) {
-    top: -250px;
-  }
-  @media (max-width: 920px) {
-    top: -200px;
-  }
-  @media (max-width: 860px) {
-    order: 1;
-    position: relative;
-    top: -60px;
-    left: 0;
-  }
-`;
-const ImgWrapper = styled.div`
-  width: 100%;
-  padding: 0 15%;
-  img {
-    width: 100%;
-    height: auto;
-  }
-  @media (max-width: 400px) {
-    padding: 0;
-  }
-`;
+// const Advertising = styled.div`
+//   padding: 180px 0 540px;
+//   margin: 100px 0;
+//   position: relative;
+//   @media (max-width: 1160px) {
+//     padding: 120px 0 430px 0;
+//   }
+//   @media (max-width: 860px) {
+//     flex-direction: column;
+//     padding: 20px 0 10px 0px;
+//     margin: 80px 0 0px 0;
+//   }
+// `;
+// const ButtonsRow = styled.div`
+//   @media (max-width: 860px) {
+//     justify-content: space-between;
+//   }
+// `;
+// const AddLeft = styled.div`
+//   position: relative;
+//   padding: 0;
+//   width: 90%;
+//   p {
+//     max-width: 475px;
+//   }
+//   @media (max-width: 860px) {
+//     width: 80%;
+//     order: 2;
+//     text-align: center;
+//     h2 {
+//       line-height: 3rem;
+//       margin: 0px 0;
+//     }
+//     p {
+//       margin: 0 auto;
+//     }
+//   }
+// `;
+// const AddRight = styled.div`
+//   width: 60%;
+//   @media (max-width: 860px) {
+//     width: 80%;
+//     order: 2;
+//   }
+// `;
+// const AddLeftInner = styled.div`
+//   width: 100%;
+//   position: absolute;
+//   top: -300px;
+//   left: 0;
+//   @media (max-width: 1190px) {
+//     top: -250px;
+//   }
+//   @media (max-width: 920px) {
+//     top: -200px;
+//   }
+//   @media (max-width: 860px) {
+//     order: 1;
+//     position: relative;
+//     top: -60px;
+//     left: 0;
+//   }
+// `;
+// const ImgWrapper = styled.div`
+//   width: 100%;
+//   padding: 0 15%;
+//   img {
+//     width: 100%;
+//     height: auto;
+//   }
+//   @media (max-width: 400px) {
+//     padding: 0;
+//   }
+// `;

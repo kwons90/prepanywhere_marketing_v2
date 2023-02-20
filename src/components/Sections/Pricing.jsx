@@ -6,13 +6,12 @@ import PricingTable from "../Elements/PricingTable";
 export default function Pricing() {
   return (
     <Wrapper id="pricing">
-      <div className="whiteBg">
+      <div className="lightBg" style={{padding: '0px 0px 50px 0px'}}>
         <div className="container">
           <HeaderInfo>
             <h1 className="font40 extraBold">Our Pricing</h1>
             <p className="font18">
               Beginning at $14 per hour, we offer the highest-quality math tutoring at the most competitive rates
-
             </p>
           </HeaderInfo>
           <TablesWrapper className="flexSpaceNull">
@@ -73,10 +72,11 @@ export default function Pricing() {
 
 const Wrapper = styled.section`
   width: 100%;
-  padding: 50px 0 80px;
+  padding: 20px 0px 50px 0px;
 `;
 const HeaderInfo = styled.div`
-  margin-bottom: 50px;
+  margin-bottom: 0px;
+  padding: 60px 0px 0px 0px;
   @media (max-width: 860px) {
     text-align: center;
   }

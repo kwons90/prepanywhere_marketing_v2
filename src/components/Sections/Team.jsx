@@ -2,8 +2,7 @@ import React from "react";
 import styled from "styled-components";
 // Components
 import ProfileBox from "../Elements/ProfileBox";
-import FullButton from "../Buttons/FullButton";
-import TestimonialSlider from "../Elements/TestimonialSlider";
+// import FullButton from "../Buttons/FullButton";
 import MinImage from "../../assets/img/profiles/profile-min.png";
 import KwonImage from "../../assets/img/profiles/profile-kwon.png";
 
@@ -53,11 +52,12 @@ export default function Team() {
 
 const Wrapper = styled.section`
   width: 100%;
-  padding-top: 50px;
-  padding-bottom: 50px;
+  border-top: 0px;
+  padding: 0px 10px;
 `;
 const HeaderInfo = styled.div`
-  margin-bottom: 30px;
+  margin-bottom: 20px;
+  padding-top: 30px;
   @media (max-width: 860px) {
     text-align: center;
   }

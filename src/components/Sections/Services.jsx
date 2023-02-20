@@ -2,7 +2,6 @@ import React from "react";
 import styled from "styled-components";
 // Components
 import DemoVideo from "../Elements/DemoVideo";
-import ServiceBox from "../Elements/ServiceBox";
 import FullButton from "../Buttons/FullButton";
 // Assets
 import AddImage1 from "../../assets/img/screenshots/lecture_screenshot1.png";
@@ -12,16 +11,14 @@ import lectureGIF from "../../assets/img/screenshots/watchlectures.gif";
 import solvingGIF from "../../assets/img/screenshots/solving.gif";
 import submitandmarkGIF from "../../assets/img/screenshots/submitandmark.gif";
 import asktutorGIF from "../../assets/img/screenshots/asktutor.gif";
-import AddImage2 from "../../assets/img/add/2.png";
 import AddImage3 from "../../assets/img/screenshots/question_solving.png";
-import AddImage4 from "../../assets/img/add/4.png";
 
 export default function Services() {
   return (
     <Wrapper id="services">     
       
       <div className="whiteBg" style={{ padding: "60px 0" }}>
-      <div className="lightBg">
+      <div className="lightBg" style={{ padding: "40px 0px 70px 0px" }}>
           <div className="container">
             <Advertising className="flexSpaceCenter">
               <AddLeft>
@@ -64,9 +61,9 @@ export default function Services() {
             </Advertising>
           </div>
         </div>
-        <div className="container" style={{ padding: "50px 0px 30px 30px" }} >
+        <div className="container" style={{ padding: "0px 0px 30px 30px" }} >
         <HeaderInfo>
-            <h1 className="font40 extraBold">How does it work?</h1>
+            <h1 className="font40 extraBold" style={{ padding: "40px 0px 0px 0px" }}>How does it work?</h1>
             {/* <p className="font18">
               As simple as ABC
             </p> */}
@@ -144,7 +141,7 @@ export default function Services() {
           <DemoVideo />
         </div>
       </div>
-      <div className="whiteBg" style={{ padding: "60px 0" }}>
+      {/* <div className="whiteBg" style={{ padding: "60px 0" }}> */}
         {/* <div className="container">
           <HeaderInfo>
             <h1 className="font40 extraBold">What's in PrepBox?</h1>
@@ -183,7 +180,7 @@ export default function Services() {
           </ServiceBoxRow>
         </div> */}
         
-      </div>
+      {/* </div> */}
     </Wrapper>
   );
 }
@@ -191,23 +188,23 @@ export default function Services() {
 const Wrapper = styled.section`
   width: 100%;
 `;
-const ServiceBoxRow = styled.div`
-  @media (max-width: 860px) {
-    flex-direction: column;
-  }
-`;
+// const ServiceBoxRow = styled.div`
+//   @media (max-width: 860px) {
+//     flex-direction: column;
+//   }
+// `;
 
 
-const ServiceBoxWrapper = styled.div`
-  width: 20%;
-  margin-right: 5%;
-  padding: 80px 0;
-  @media (max-width: 860px) {
-    width: 100%;
-    text-align: center;
-    padding: 40px 0;
-  }
-`;
+// const ServiceBoxWrapper = styled.div`
+//   width: 20%;
+//   margin-right: 5%;
+//   padding: 80px 0;
+//   @media (max-width: 860px) {
+//     width: 100%;
+//     text-align: center;
+//     padding: 40px 0;
+//   }
+// `;
 const HeaderInfo = styled.div`
   @media (max-width: 860px) {
     text-align: center;
@@ -215,7 +212,7 @@ const HeaderInfo = styled.div`
 `;
 const Advertising = styled.div`
   margin: 80px 0;
-  padding: 100px 0;
+  padding-top: 100px;
   position: relative;
   @media (max-width: 1160px) {
     padding: 100px 0 40px 0;
@@ -309,18 +306,18 @@ const AddImgWrapp3 = styled.div`
     -moz-box-shadow: 0 2px 15px rgba(0, 0, 0, 0.3);
   }
 `;
-const AddImgWrapp4 = styled.div`
-  width: 30%;
-  margin: 0 5%auto;
-  img {
-    width: 100%;
-    height: auto;
-    border-radius: 1rem;
-    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.3);
-    -webkit-box-shadow: 0 2px 15px rgba(0, 0, 0, 0.3);
-    -moz-box-shadow: 0 2px 15px rgba(0, 0, 0, 0.3);
-  }
-`;
+// const AddImgWrapp4 = styled.div`
+//   width: 30%;
+//   margin: 0 5%auto;
+//   img {
+//     width: 100%;
+//     height: auto;
+//     border-radius: 1rem;
+//     box-shadow: 0 2px 15px rgba(0, 0, 0, 0.3);
+//     -webkit-box-shadow: 0 2px 15px rgba(0, 0, 0, 0.3);
+//     -moz-box-shadow: 0 2px 15px rgba(0, 0, 0, 0.3);
+//   }
+// `;
 const BtnWrapper = styled.div`
   max-width: 190px;
   @media (max-width: 960px) {

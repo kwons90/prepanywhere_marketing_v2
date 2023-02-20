@@ -47,34 +47,14 @@ const BttnContainer = styled.div`
 
 const Wrapper = styled.section`
   width: 100%;
-  
 `;
 const HeaderInfo = styled.div`
-  padding: 70px 0 30px 0;
+  padding: 50px 0 30px 0;
   @media (max-width: 860px) {
     text-align: center;
   }
 `;
-const Form = styled.form`
-  padding: 70px 0 30px 0;
-  input,
-  textarea {
-    width: 100%;
-    background-color: transparent;
-    border: 0px;
-    outline: none;
-    box-shadow: none;
-    border-bottom: 1px solid #707070;
-    height: 30px;
-    margin-bottom: 30px;
-  }
-  textarea {
-    min-height: 100px;
-  }
-  @media (max-width: 860px) {
-    padding: 30px 0;
-  }
-`;
+
 const BtnWrapper = styled.div`
   max-width: 240px;
   padding-bottom: 30px;

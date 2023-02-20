@@ -32,12 +32,9 @@ export default function PricingTable({ icon, price, title, text,  offers, link }
 
   return (
     <Wrapper className="whiteBg radius8 shadow">
-      <div className="flexSpaceCenter">
-        {/* {getIcon} */}
-        <p className="font30 extraBold">{price}</p>
-      </div>
       <div style={{ margin: "30px 0" }}>
-        <h4 className="font30 extraBold">{title}</h4>
+        <h4 className="font30 extraBold" style={{ padding: "30px 0px 0px 0px" }}>{title}</h4>
+        <p className="font30 extraBold">{price}</p>
         <p className="font18">{text}</p>
       </div>
       <div>
@@ -70,6 +67,6 @@ export default function PricingTable({ icon, price, title, text,  offers, link }
 const Wrapper = styled.div`
   width: 100%;
   text-align: left;
-  padding: 0px 30px;
+  padding: 0px 30px 30px 30px;
   margin-top: 30px;
 `;

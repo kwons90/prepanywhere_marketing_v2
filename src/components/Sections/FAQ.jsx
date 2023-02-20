@@ -1,9 +1,9 @@
 import React from "react";
 import styled from "styled-components";
 // Components
-import ProjectBox from "../Elements/ProjectBox";
+// import ProjectBox from "../Elements/ProjectBox";
 // Assets
-import Matrix from "../../assets/img/screenshots/PrepBox_matrix.png";
+// import Matrix from "../../assets/img/screenshots/PrepBox_matrix.png";
 
 export default function FAQ() {
   return (
@@ -71,7 +71,6 @@ export default function FAQ() {
 
 const Wrapper = styled.section`
   width: 100%;
-  padding: 30px;
 `;
 const HeaderInfo = styled.div`
   @media (max-width: 860px) {
