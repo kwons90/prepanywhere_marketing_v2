@@ -27,9 +27,9 @@ export default function FAQ() {
               <p className="font15">
               Unlike other online tutoring services, PrepBox contains (i) tried-and-tested lectures, (ii) problems with hints and solutions, (iii) whiteboard for problems-solving and showing proof of work, and (iv) guidance from an experienced tutor that enable us to deliver our “learn by doing” methodology for the best-in-class educational outcomes.
               </p>
-              <br />
-              <img src={Matrix} width="550px" />
-              <br />
+              {/* <br />
+              <img src={Matrix} width="550px" className="img" />
+              <br /> */}
               <br />
               <h2 className="font18 semiBold">Is PrepBox better than in-person tutoring?</h2>
               <p className="font15">
@@ -78,4 +78,12 @@ const HeaderInfo = styled.div`
     text-align: center;
   }
   padding-bottom: 80px;
+`;
+
+const img = styled.section`
+  .media {
+  
+  }
+    width: 100%;
+  padding: 30px;
 `;
