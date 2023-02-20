@@ -41,12 +41,12 @@ export default function Sidebar({ sidebarOpen, toggleSidebar }) {
             activeClass="active"
             className="whiteColor"
             style={{ padding: "10px 15px" }}
-            to="services"
+            to="results"
             spy={true}
             smooth={true}
             offset={-60}
           >
-            About
+            Results
           </Link>
         </li>
         <li className="semiBold font15 pointer">
@@ -55,12 +55,12 @@ export default function Sidebar({ sidebarOpen, toggleSidebar }) {
             activeClass="active"
             className="whiteColor"
             style={{ padding: "10px 15px" }}
-            to="projects"
+            to="services"
             spy={true}
             smooth={true}
             offset={-60}
           >
-            Our Results
+            Product
           </Link>
         </li>
         <li className="semiBold font15 pointer">

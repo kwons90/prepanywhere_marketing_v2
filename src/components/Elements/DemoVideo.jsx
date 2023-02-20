@@ -1,7 +1,7 @@
 /* eslint-disable jsx-a11y/iframe-has-title */
 import React from "react";
 // import Slider from "react-slick";
-import styled from "styled-components";
+// import styled from "styled-components";
 // Assets
 // import ClientLogo01 from "../../assets/img/schools/harvard_logo.png"
 // import ClientLogo02 from "../../assets/img/schools/upenn_logo.png";
@@ -84,17 +84,17 @@ export default function DemoVideo() {
   );
 }
 
-const LogoWrapper = styled.div`
-  width: 100%;
-  height: 100px;
-  cursor: pointer;
-  :focus-visible {
-    outline: none;
-    border: 0px;
-  }
-`;
-const ImgStyle = styled.img`
-  width: 100%;
-  height: 100%;
-  padding: 10%;
-`;
+// const LogoWrapper = styled.div`
+//   width: 100%;
+//   height: 100px;
+//   cursor: pointer;
+//   :focus-visible {
+//     outline: none;
+//     border: 0px;
+//   }
+// `;
+// const ImgStyle = styled.img`
+//   width: 100%;
+//   height: 100%;
+//   padding: 10%;
+// `;
