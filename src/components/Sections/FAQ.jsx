@@ -77,13 +77,5 @@ const HeaderInfo = styled.div`
   @media (max-width: 860px) {
     text-align: center;
   }
-  padding-bottom: 80px;
-`;
-
-const img = styled.section`
-  .media {
-  
-  }
-    width: 100%;
-  padding: 30px;
+  padding-bottom: 30px;
 `;
