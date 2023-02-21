@@ -7,9 +7,12 @@ import TestimonialSlider from "../Elements/TestimonialSlider";
 // Assets
 import ProjectImg1 from "../../assets/img/students/olivie-nie.png";
 import ProjectImg2 from "../../assets/img/students/andy-lee.png";
-import ProjectImg3 from "../../assets/img/students/esther-sohn2.png";
-import ProjectImg4 from "../../assets/img/students/raymond-jang.png";
+import EstherS from "../../assets/img/students/esther-sohn2.png";
+import RaymondJ from "../../assets/img/students/raymond-jang.png";
+import MaximB from "../../assets/img/students/Maxim Barron_Laurier_91 Calc.png";
+import SoniaS from "../../assets/img/students/Sonia Sharma_96 Calc_Western Medical.png";
 import ProjectImg5 from "../../assets/img/students/mike-woo.png";
+import KasraR from "../../assets/img/students/Kasra Rahmani_Calc 92_UoT.png";
 import ProjectImg6 from "../../assets/img/students/kimberly-seaman.png";
 // import HarvardCase from "../../assets/img/students/olivia-nie-linkedin.png";
 
@@ -38,40 +41,40 @@ export default function Results() {
             </div>
             <div className="col-xs-12 col-sm-4 col-md-4 col-lg-4">
               <ProjectBox
+                img={MaximB}
+                name="Maxim Barron Lee"
+                subject="91% in Calculus"
+                school="Wilfred Laurier University"
+                text="B.S. Financial Mathematics"
+              />
+            </div>
+            <div className="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+              <ProjectBox
+                img={SoniaS}
+                name="Sonia Sharma"
+                subject="96% in Calculus"
+                school="Western University"
+                text="Medicine"
+              />
+            </div>
+          </div>
+          <div className="row textCenter">
+          <div className="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+              <ProjectBox
+                img={KasraR}
+                name="Kasra Rahmani"
+                subject="92% in Calculus"
+                school="University of Toronto"
+                text="B.S. Comp Sci & Statistics"
+              />
+            </div>
+            <div className="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+              <ProjectBox
                 img={ProjectImg2}
                 name="Andy Lee"
                 subject="100% in Calculus"
                 school="University of Pennsylvania"
                 text="B.S. Systems Engineering"
-              />
-            </div>
-            <div className="col-xs-12 col-sm-4 col-md-4 col-lg-4">
-              <ProjectBox
-                img={ProjectImg3}
-                name="Esther Sohn"
-                subject="95% in Calculus"
-                school="Georgetown University"
-                text= "B.S. Foreign Services"
-              />
-            </div>
-          </div>
-          <div className="row textCenter">
-            <div className="col-xs-12 col-sm-4 col-md-4 col-lg-4">
-              <ProjectBox
-                img={ProjectImg4}
-                name="Raymond Jang"
-                subject="5/5 in AP Calculus BC"
-                school="Northwestern University"
-                text="B.S. Physics"
-              />
-            </div>
-            <div className="col-xs-12 col-sm-4 col-md-4 col-lg-4">
-              <ProjectBox
-                img={ProjectImg5}
-                name="Mike Woo"
-                subject="99% in Calculus"
-                school="University of Toronto"
-                text="B.S. Physics and Math"
               />
             </div>
             <div className="col-xs-12 col-sm-4 col-md-4 col-lg-4">
@@ -83,6 +86,34 @@ export default function Results() {
                 text="B.S. Chemical Engineering"
               />
             </div>
+            <div className="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+              <ProjectBox
+                img={RaymondJ}
+                name="Raymond Jang"
+                subject="5/5 IB Higher Level Math"
+                school="Northwestern University"
+                text= "B.S. Physics"
+              />
+            </div>
+            <div className="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+              <ProjectBox
+                img={EstherS}
+                name="Esther Sohn"
+                subject="95% in Calculus"
+                school="Georgetown University"
+                text= "B.S. Foreign Services"
+              />
+            </div>
+            <div className="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+              <ProjectBox
+                img={ProjectImg5}
+                name="Mike Woo"
+                subject="99% in Calculus"
+                school="University of Toronto"
+                text="B.S. Physics and Math"
+              />
+            </div>
+            
           </div>
           {/* <Advertising className="flexSpaceCenter">
             <AddLeft>
