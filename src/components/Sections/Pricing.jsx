@@ -28,7 +28,7 @@ export default function Pricing() {
                   { name: "Homework assignment", cheked: false },
                   // { name: "Product Offer", cheked: false },
                 ]}
-                link="https://buy.stripe.com/fZe28B02n7robYYcMO"
+                link="https://buy.stripe.com/3cs5kN4iDbHE8MM4gs"
               />
             </TableBox>
             <TableBox>
@@ -44,7 +44,7 @@ export default function Pricing() {
                   { name: "Homework assignment", cheked: false },
                   // { name: "Product Offer", cheked: false },
                 ]}
-                link="https://buy.stripe.com/5kA7sVcP97roaUUdQU"
+                link="https://buy.stripe.com/5kAcNf5mH9zwe76bIV"
               />
             </TableBox>
             <TableBox>
@@ -60,7 +60,7 @@ export default function Pricing() {
                   { name: "Homework assignment", cheked: true },
                   // { name: "Product Offer", cheked: true },
                 ]}
-                link="https://buy.stripe.com/5kA8wZ3ezfXU9QQ6oz"
+                link="https://buy.stripe.com/cN2eVn2av2745AAaES"
               />
             </TableBox>
           </TablesWrapper>
