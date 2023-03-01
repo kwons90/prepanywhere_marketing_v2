@@ -32,7 +32,7 @@ export default function Services() {
                 <ButtonsRow className="flexNullCenter" style={{ margin: "30px 0"}}>
                 <BtnWrapper>
             <a href="https://calendly.com/d/hw9-7wv-n3y/assessment">
-            <FullButton title="Schedule assessment" />
+            <FullButton title="Book assessment" />
             </a>
           </BtnWrapper>
               
@@ -77,7 +77,12 @@ export default function Services() {
           </div>
           <div className="container font18">
           <h3>Step 1. Book your free asssessment</h3>
-            <p> Understand where you are for your grade and identify weaknesses</p>
+            <p> 
+              Take an assessment with our exprienced tutor to understand where you are for your grade and identify weaknesses
+              <br />
+              <br />
+              <em>"I really felt like the tutor understood exactly what I needed to do to improve my grades after the assessment"</em>
+            </p>
           </div>
         </div>
         <div className="divider">
@@ -88,7 +93,12 @@ export default function Services() {
           </div>
           <div className="container font18">
           <h3>Step 2. Login to your account</h3>
-            <p> Where you will be greeted with your individually designed courses</p>
+            <p>
+               Our dashboard gives you an overview of your progress towards conquering your math curriculum
+              <br />
+              <br />
+              <em>"It's very encouraging to log in and see how far you've come since starting the program. It gets me excited each session."</em>
+            </p>
           </div>
         </div>
         <div className="divider">
@@ -99,7 +109,11 @@ export default function Services() {
           </div>
           <div className="container font18">
           <h3>Step 3. Watch mini-lectures</h3>
-            <p> The "learning": our lectures are short and sweet</p>
+            <p> This is our "learning" part: our lectures are designed to deliver exactly the lectures you need to understand before each problem set
+              <br />
+              <br />
+              <em>"I love how short and sweet the lectures are. I don't get bored and can dive into questions to apply the concepts right away."</em>
+            </p>
           </div>
         </div>
         <div className="divider">
@@ -110,7 +124,11 @@ export default function Services() {
           </div>
           <div className="container font18">
           <h3>Step 4. Begin solving questions</h3>
-            <p> The "doing": begin applying concepts <em>immediately </em> </p>
+            <p> This is our "doing" part: students begin applying concepts <em>immediately </em> after our lecture videos.
+              <br />
+              <br />
+              <em>"It's not like other programs where I have to submit before seeking help. Hint videos and similar questions give me the tools I need to solve the questions!"</em>
+            </p>
           </div>
         </div>
         <div className="divider">
@@ -121,7 +139,12 @@ export default function Services() {
           </div>
           <div className="container font18">
           <h3>Step 5. Submit and get marked real-time</h3>
-            <p> Receive immediate feedback</p>
+            <p> 
+              Our tutors and A.I. mark the the submissions within minutes of submission. Solutions without proper work are marked wrong to encourage good habits.
+              <br />
+              <br />
+              <em>"I love that I don't have to wait overnight to get marked. Solution videos are a plus that helps me learn faster!"</em>
+            </p>
           </div>
         </div>
         <div className="divider">
@@ -131,8 +154,12 @@ export default function Services() {
           </AddImgWrapp2>
           </div>
           <div className="container font18">
-          <h3> If stuck, ask our tutors</h3>
-            <p> We respond right away!</p>
+          <h3> If stuck, ask our tutors!</h3>
+            <p> Our experienced tutors respond right away to make sure you learn the materials with proper depth.
+              <br />
+              <br />
+              <em>"On difficult questions, experienced tutors always help me with clever ways to understand the problems. Thank you!"</em>
+            </p>
           </div>
         </div>
       </div>
