@@ -9,7 +9,7 @@ import FullButton from "../Buttons/FullButton";
 export default function Contact() {
   return (
     <Wrapper id="contact">
-      <div className="lightBg">
+      <div className="whiteBg">
         <div className="container">
           <HeaderInfo>
             <h1 className="font40 extraBold">Let's get in touch</h1>

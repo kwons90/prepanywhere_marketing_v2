@@ -66,6 +66,32 @@ export default function Pricing() {
           </TablesWrapper>
         </div>
       </div>
+      <div className="whiteBg" style={{padding: '0px 0px 50px 0px'}}>
+        <div className="container">
+          <HeaderInfo>
+            <h1 className="font40 extraBold">Our Session Times</h1>
+            <p className="font18">
+              You can sign up to attend any of our sessions to study with our tutors. All times are U.S. Eastern Standard Time
+            </p>
+            <h3 className="font24 extraBold" style={{padding: '20px 0px 10px 0px'}}>Tuesdays</h3>
+              <p className="font18">
+                6:00am | 4:30pm
+              </p>
+            <h3 className="font24 extraBold" style={{padding: '20px 0px 10px 0px'}}>Wednesdays</h3>
+              <p className="font18">
+                4:30pm | 9:00pm
+              </p>
+            <h3 className="font24 extraBold" style={{padding: '20px 0px 10px 0px'}}>Thursdays</h3>
+              <p className="font18">
+                6:00am | 8:00pm | 9:00pm
+              </p>
+            <h3 className="font24 extraBold" style={{padding: '20px 0px 10px 0px'}}>Saturdays</h3>
+              <p className="font18">
+                7:00am | 10:00am
+              </p>
+          </HeaderInfo>
+          </div>
+        </div>
     </Wrapper>
   );
 }

@@ -8,7 +8,7 @@ import styled from "styled-components";
 export default function FAQ() {
   return (
     <Wrapper id="faq" >
-      <div className="whiteBg">
+      <div className="lightBg">
       <div className="container">
       <HeaderInfo>
             <h1 className="font40 extraBold">Frequently Asked Questions</h1>
@@ -73,6 +73,7 @@ const Wrapper = styled.section`
   width: 100%;
 `;
 const HeaderInfo = styled.div`
+  padding: 30px 0px 0px 0px;
   @media (max-width: 860px) {
     text-align: center;
   }
