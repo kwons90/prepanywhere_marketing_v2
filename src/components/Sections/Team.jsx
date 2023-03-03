@@ -5,6 +5,7 @@ import ProfileBox from "../Elements/ProfileBox";
 // import FullButton from "../Buttons/FullButton";
 import MinImage from "../../assets/img/profiles/profile-min.png";
 import KwonImage from "../../assets/img/profiles/profile-kwon.png";
+import JinaImage from "../../assets/img/profiles/JinaCard3.png";
 
 export default function Team() {
   return (
@@ -27,20 +28,26 @@ export default function Team() {
                 alma_mater="University of Toronto"
                 exp_yrs="20 years"
                 img={MinImage}
-                text="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor."
               />
             </div>
             <div className="col-xs-12 col-sm-4 col-md-4 col-lg-4">
               <ProfileBox
-                name="Sang-Hyuk Kwon"
+                name="Sam Kwon"
                 title="Chief Growth Officer"
                 alma_mater="MIT"
                 exp_yrs="2 years"
                 img={KwonImage}
-                text="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor."
               />
             </div>
-           
+            <div className="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+              <ProfileBox
+                name="Jina Seok"
+                title="Head Tutor - Canada"
+                alma_mater="University of Toronto"
+                exp_yrs="4 years"
+                img={JinaImage}
+              />
+            </div>
           </div>
           <div className="row flexCenter">
           </div>
