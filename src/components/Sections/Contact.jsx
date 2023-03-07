@@ -16,16 +16,24 @@ export default function Contact() {
             <p className="font18">
               Schedule a demo or an assessment with us or send us query to info@prepanywhere.com
             </p>
+            <h3 className="font24 extraBold" style={{padding: '20px 0px 10px 0px'}}>iMessage or WhatsApp </h3>
+              <p className="font18">
+                +1 (646) 290 0172
+              </p>
+            <h3 className="font24 extraBold" style={{padding: '20px 0px 10px 0px'}}>KakaoTalk</h3>
+              <p className="font18">
+                +82 10 2710 9984
+              </p>
           </HeaderInfo>
           <BttnContainer>
-          <BtnWrapper>
+          {/* <BtnWrapper>
             <a href="https://calendly.com/sanghyuk-kwon/30min?">
             <FullButton title="Book a demo (30m)" />
             </a>
-          </BtnWrapper>
+          </BtnWrapper> */}
           <BtnWrapper>
             <a href="https://calendly.com/d/hw9-7wv-n3y/assessment">
-            <FullButton title="Schedule assessment (60m)" />
+            <FullButton title="Schedule assessment" />
             </a>
           </BtnWrapper>
           </BttnContainer>
