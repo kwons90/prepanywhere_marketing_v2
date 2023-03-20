@@ -73,21 +73,25 @@ export default function Pricing() {
             <p className="font18">
               You can sign up to attend any of our sessions to study with our tutors. All times are U.S. Eastern Standard Time
             </p>
+            <h3 className="font24 extraBold" style={{padding: '20px 0px 10px 0px'}}>Monday</h3>
+              <p className="font18">
+                2:00pm
+              </p>
             <h3 className="font24 extraBold" style={{padding: '20px 0px 10px 0px'}}>Tuesdays</h3>
               <p className="font18">
-                6:00am | 4:30pm
+                6:30am | 4:30pm | 5:00pm
               </p>
             <h3 className="font24 extraBold" style={{padding: '20px 0px 10px 0px'}}>Wednesdays</h3>
               <p className="font18">
-                4:30pm | 9:00pm
+                4:30pm | 5:00pm | 9:00pm
               </p>
             <h3 className="font24 extraBold" style={{padding: '20px 0px 10px 0px'}}>Thursdays</h3>
               <p className="font18">
-                6:00am | 8:00pm | 9:00pm
+                6:30am | 8:00pm | 9:00pm
               </p>
             <h3 className="font24 extraBold" style={{padding: '20px 0px 10px 0px'}}>Saturdays</h3>
               <p className="font18">
-                7:00am | 10:00am
+                6:30am | 10:00am | 10:30am
               </p>
           </HeaderInfo>
           </div>
