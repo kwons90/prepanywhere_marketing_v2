@@ -10,9 +10,6 @@ export default function Pricing() {
         <div className="container">
           <HeaderInfo>
             <h1 className="font40 extraBold">Our Pricing</h1>
-            <p className="font18">
-              Beginning at $14 per hour, we offer the highest-quality math tutoring at the most competitive rates
-            </p>
           </HeaderInfo>
           <TablesWrapper className="flexSpaceNull">
             <TableBox>
