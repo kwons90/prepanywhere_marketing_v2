@@ -6,7 +6,7 @@ import FullButton from "../Buttons/FullButton";
 // Assets
 import AddImage1 from "../../assets/img/screenshots/lecture_screenshot1.png";
 import bookingGIF from "../../assets/img/screenshots/booking.gif";
-import logInGIF from "../../assets/img/screenshots/loginGIF.gif";
+import logInGIF from "../../assets/img/screenshots/login_GIF.gif";
 import lectureGIF from "../../assets/img/screenshots/watchlectures.gif";
 import solvingGIF from "../../assets/img/screenshots/solving.gif";
 import submitandmarkGIF from "../../assets/img/screenshots/submitandmark.gif";
