@@ -13,13 +13,13 @@ const SessionCard = () => {
             <div className={classes['card__week']}>
                 <ul className={classes['card__week-list']}>
                     <li>
-                        Mon <span> - 2:00pm</span>
+                        Mon <span> - 1:00pm</span>
                     </li>
                     <li>
                         Tue <span> - 6:30am | 4:30pm | 5:00pm</span>
                     </li>
                     <li>
-                        Wed <span> - 6:30am | 4:30pm | 5:00pm</span>
+                        Wed <span> - 6:30am | 4:30pm | 5:00pm | 9:00pm</span>
                     </li>
                     <li>
                         Thu <span> - 6:30am | 8:00pm | 9:00pm</span>
