@@ -53,7 +53,7 @@ const StudentSection = () => {
                         backgroundColor='#F7F7F8'
                     />
                     <StudentCard
-                        name='Maxim Barron Lee'
+                        name='Maxim Barron'
                         image={Student3}
                         university='Wilfred Laurier University'
                         score='91% in Calculus'
