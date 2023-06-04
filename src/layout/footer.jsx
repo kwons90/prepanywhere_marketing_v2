@@ -20,13 +20,13 @@ const Footer = () => {
                         <div className={classes['assessment__text']}>
                             <h5>Let’s get in touch</h5>
                             <p>
-                                Schedule a free class
+                                Schedule a trial PrepBox class with Min or reach out to us at
                                 <a href='mailto: info@prepanywhere.com'> info@prepanywhere.com</a>
                             </p>
                         </div>
                     </div>
                     <a
-                        href='https://prepboxfirstclass.paperform.co/'
+                        href='https://studentprepbox.paperform.co'
                         target='_blank'
                         rel='noopener noreferrer'
                         className={classes['assessment__btn']}
@@ -34,7 +34,6 @@ const Footer = () => {
                         Schedule assessment
                     </a>
                 </div>
-
                 <div className={classes.content}>
                     <div className={classes['content__texts']}>
                         <RouteLink to='/'>{/* <img src={FooterLogo} alt='Logo' /> */}</RouteLink>

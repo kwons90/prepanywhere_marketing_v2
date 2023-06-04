@@ -1,5 +1,5 @@
 import classes from './about-section.module.css';
-import Founders from './../../assets/images/Partners.png';
+import Founders from './../../assets/images/Minpic.png';
 
 
 const AboutSection = () => {
@@ -12,15 +12,19 @@ const AboutSection = () => {
                 <h2>My name is Min Lee</h2>
             </div>     
             <div className={classes.container}>
-                <a href="https://app.prepanywhere.com/student/prep/textbooks" className={classes.product}>
-                    <div className={classes.imgLeft}>    
+                <a href="https://app.prepanywhere.com/student/prep/textbooks" className={classes.imgLeft}>
+                    <div>    
                         <img className={classes.image} src={Founders} alt="textbooks" />
-                        <p>Textbook solutions</p>
                     </div>
                 </a>
-                <a href="https://prepbox.io" className={classes.product}>
-                    <div className={classes.imgRight}>
-                        <p className={classes.product}>I created PrepAnhywhere for students to improve their math grades.</p>
+                <a href="https://prepbox.io" className={classes.imgRight}>
+                    <div className={classes.description}>
+                        <p>I created PrepAnywhere to help students to improve their math grades.</p>
+                        <p>After receiving much love and support, I have decided to make PrepAnywhere free</p>
+                        <br/>
+                        <p>I have also launched PrepBox, the leading math tutoring avaiable on an iPad</p>
+                        <br/>
+                        <p>To all my PrepAnywhere fans, book your free session with me today!</p>
                     </div>
                 </a>
             </div>

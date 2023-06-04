@@ -17,7 +17,7 @@ const PrepBoxSection = () => {
                     <div className={classes.imgLeft}>    
                         <p className={classes.des}>Have an iPad? <br/> First session is on us</p>
                         <div className={classes.buttons}>
-                            <a className={classes.signup} href="https://prepbox.io">
+                            <a className={classes.signup} href="https://studentprepbox.paperform.co">
                                 <span>Try PrepBox</span>
                             </a>
                         </div>
