@@ -11,6 +11,10 @@ html {
     padding: 0;
 }
 
+a {
+    text-decoration: none;
+}
+
 :root {
     font-synthesis: none;
     text-rendering: optimizeLegibility;
@@ -20,7 +24,7 @@ html {
 }
 
 body {
-    background-color: #ffffff;
+    background-color: #000000;
     font-family: 'Inter', sans-serif;
     font-size: 18px;
     line-height: 1.7;
@@ -48,25 +52,27 @@ h1 {
 }
 
 h2 {
-    font-weight: 400;
-    font-size: 61px;
+    font-weight: 500;
+    font-size: 40px;
     line-height: 70px;
-    letter-spacing: -2.56px;
-    color: #263238;
+    letter-spacing: 0px;
+    color: #ffffff;
 }
 
 h3 {
-    font-weight: 400;
-    font-size: 36.4px;
+    font-weight: 500;
+    font-size: 30px;
     line-height: 46px;
-    letter-spacing: -0.768px;
-    color: #121217;
+    letter-spacing: 1px;
+    color: #ffffff;
 }
 
 h4 {
-    font-weight: 700;
-    font-size: 23px;
+    font-weight: 500;
+    font-size: 30px;
     line-height: 28px;
+    letter-spacing: 1px;
+    color: #05ACE0;
 }
 
 .text-center {
@@ -80,7 +86,7 @@ h4 {
     }
 
     h2 {
-        font-size: 56px;
+        font-size: 40px;
         line-height: 68px;
     }
     h3 {
@@ -88,7 +94,7 @@ h4 {
         line-height: 44px;
     }
     h4 {
-        font-size: 18px;
+        font-size: 25px;
         line-height: 24px;
     }
 }
@@ -100,12 +106,16 @@ h4 {
     }
 
     h2 {
-        font-size: 52px;
+        font-size: 40px;
         line-height: 64px;
     }
     h3 {
         font-size: 32px;
         line-height: 40px;
+    }
+    h4 {
+        font-size: 25px;
+        line-height: 24px;
     }
 }
 
@@ -120,7 +130,7 @@ h4 {
     }
 
     h2 {
-        font-size: 40px;
+        font-size: 37px;
         line-height: 54px;
     }
 
@@ -129,7 +139,7 @@ h4 {
         line-height: 38px;
     }
     h4 {
-        font-size: 16px;
+        font-size: 22px;
         line-height: 22px;
     }
 }
@@ -140,11 +150,19 @@ h4 {
         letter-spacing: -2px;
     }
     h2 {
-        font-size: 34px;
+        font-size: 30px;
         line-height: 42px;
     }
     h3 {
         font-size: 26px;
-        line-height: 34px;
+        line-height: 36px;
+    }
+    h4 {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    p {
+        font-size: 20px;
+        line-height: 30px;
     }
 }

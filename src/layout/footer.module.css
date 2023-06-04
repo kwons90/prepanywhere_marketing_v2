@@ -1,12 +1,16 @@
 .footer {
-    background: linear-gradient(0deg, #4098f9, #4098f9), #263238;
-    padding: 80px 0;
+    background: linear-gradient(0deg, #000000, #000000), #263238;
+    padding: 50px 0;
 }
 
 .container {
     max-width: 1320px;
     margin: 0 auto;
     padding: 0 20px;
+}
+
+.logo {
+    width:18%;
 }
 
 /* =========== Assessment ========= */
@@ -17,7 +21,7 @@
     background-color: rgba(255, 255, 255, 0.12);
     border: 1px solid rgba(255, 255, 255, 0.15);
     border-radius: 16px;
-    padding: 33px;
+    padding: 30px 20px;
 }
 
 .assessment__content {
@@ -78,8 +82,10 @@
 .content {
     display: flex;
     justify-content: space-between;
-    padding-top: 62px;
-    padding-bottom: 84px;
+    padding-top: 10px;
+    padding-bottom: 50px;
+    padding-left: 20px;
+    padding-right:20px;
 }
 
 .content__texts {
@@ -97,7 +103,7 @@
     font-size: 16px;
     line-height: 27px;
     color: #f1f0ee;
-    margin-top: 32px;
+    margin-top: 10px;
     margin-bottom: 13px;
 }
 
@@ -177,8 +183,9 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    color: #ffffff;
     border-top: 1px solid rgba(255, 255, 255, 0.1);
-    padding-top: 32px;
+    padding: 20px;
 }
 
 .copyright p {

@@ -1,0 +1,108 @@
+.section {
+    padding: 70px 0px 30px 20px;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 0px 0px 0px 0px;
+}
+
+.header2 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding: 0px 0px 20px 0px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-align: center;
+  }
+
+  @media (max-width: 500px) {
+    .container {
+      display:flex;
+      flex-direction: column;
+    }
+  }
+
+.image {
+    width: 80%;
+}
+  
+  .imgLeft {
+    padding: 0 50px 0 100px ;
+    @media (max-width: 500px) {
+      padding: 0 10px 0 5px;
+    }
+  }
+  
+  .imgRight {
+    padding: 0 0px 0 50px ;
+    display:flex;
+    width:100%;
+    justify-content: left;
+    @media (max-width: 500px) {
+      padding: 0 0 0 0px ;
+    }
+  }
+
+  .product {
+    font-weight: 400;
+    font-size: 25px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    /* line-height: 46px; */
+    letter-spacing: 1px;
+    color: #ffffff;
+    /* width:50%; */
+  }
+
+  .des {
+    font-size: 24px;
+    padding-bottom: 30px;
+  }
+
+  .buttons {
+    border: none;
+    font-weight: 700;
+    padding: 10px 5px;
+    color: #FFFFFF;
+    /* border-radius: 8px; */
+    white-space: nowrap;
+    background-color: #4098F9;
+    cursor: pointer;
+    font-size: 20px;
+    line-height: 19px;
+  }
+  
+  @media only screen and (max-width: 40em) {
+    .buttons {
+      background: #4098F9;
+      padding: 10px;
+    }
+  }
+  
+  .button:hover {
+    background-color: #2D6AAD;
+  }
+
+  .buttons {
+    text-decoration: none;
+    color: #FFFFFF;
+    background: #4098F9;
+    border-radius: 8px;
+    font-weight: 700;
+    letter-spacing: 0px;
+    padding: 15px 30px 15px 30px;
+  }
+  
+  
+.signup{
+    color: #ffffff
+}

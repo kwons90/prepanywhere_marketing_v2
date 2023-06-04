@@ -1,28 +1,25 @@
-import HeroSection from '../components/sections/hero-section';
-import StudentSection from '../components/sections/students-section';
+import PrepBoxSection from '../components/sections/PrepBox-section';
 import TestimonialsSection from '../components/sections/testimonials-section';
-import TutorailSection from '../components/sections/tutorial-section';
+import HeroSection from '../components/sections/hero-section';
 import ProductSection from '../components/sections/product-section';
-import TutorsSection from '../components/sections/tutors-section';
-import PricingSection from '../components/sections/pricing-section';
-import FaqSection from '../components/sections/faq-section';
+import HowItWorksSection from '../components/sections/howitworks-section';
+import PricingSection from '../components/sections/about-section';
 
 const Home = () => {
     return (
         <>
-            <HeroSection />
             <main>
-                <section id='students-section'>
+                {/* <section id='students-section'>
                     <StudentSection />
                     <TestimonialsSection />
-                </section>
+                </section> */}
                 <section id='product-section'>
-                    <TutorailSection />
+                    <HeroSection />
+                    <HowItWorksSection />
+                    <TestimonialsSection />
+                    <PrepBoxSection />
                     <ProductSection />
                 </section>
-                <TutorsSection />
-                <PricingSection />
-                <FaqSection />
             </main>
         </>
     );

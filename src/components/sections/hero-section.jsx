@@ -1,48 +1,33 @@
-import { ReactComponent as CheckedIcon } from './../../assets/icons/checked-circle.svg';
-import { ReactComponent as ArrowRight } from './../../assets/icons/arrow-right.svg';
-import Banner from './../../assets/images/banner.png';
-
 import classes from './hero-section.module.css';
+import Textbooks from './../../assets/images/textbooks_dalle23.png';
+import iPad from './../../assets/images/iPad_black5.png';
 
-const HeroSection = () => {
+
+const TutorailSection = () => {
     return (
-        <section className={classes.hero} id='hero'>
-            <div className={classes['hero-container']}>
-                <div className={classes['hero-content']}>
-                    <h1>Learn by doing</h1>
-                    <h1>with the world's</h1>
-                    <h1>#1 online tutor</h1>
-                    <ul className={classes['hero__content-list']}>
-                        <li>
-                            <CheckedIcon />
-                            <p>Proven lectures and questions</p>
-                        </li>
-                        <li>
-                            <CheckedIcon />
-                            <p>Tutors with 20+ yrs of experience</p>
-                        </li>
-                        <li>
-                            <CheckedIcon />
-                            <p>Courses designed just for you</p>
-                        </li>
-                    </ul>
-
-                    <a
-                        href='https://calendly.com/d/hw9-7wv-n3y/assessment?month=2023-04'
-                        className={classes['hero__content-btn']}
-                        target='_blank'
-                        rel='noopener noreferrer'
-                    >
-                        <span>Get started for free</span>
-                        <ArrowRight />
-                    </a>
-                </div>
+        <section className={classes.section}>
+            <div className={classes.header}>
+                <h4>Welcome to PrepAnywhere</h4>
             </div>
-            <div className={classes['hero-image']}>
-                <img src={Banner} alt='Laptop' />
+            <div className={classes.header2}>
+                <h2>All your math solutions in one place</h2>
+            </div>     
+            <div className={classes.container}>
+                <a href="https://app.prepanywhere.com/student/prep/textbooks" className={classes.product}>
+                    <div className={classes.imgLeft}>    
+                        <img className={classes.image} src={Textbooks} alt="textbooks" />
+                        <p>Textbook solutions</p>
+                    </div>
+                </a>
+                <a href="https://prepbox.io" className={classes.product}>
+                    <div className={classes.imgRight}>
+                        <img className={classes.image} src={iPad} alt="textbooks" />
+                        <p>PrepBox math tutoring</p>
+                    </div>
+                </a>
             </div>
         </section>
     );
 };
 
-export default HeroSection;
+export default TutorailSection;
