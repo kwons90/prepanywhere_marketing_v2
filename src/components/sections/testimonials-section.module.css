@@ -26,6 +26,6 @@
     justify-content: center;
     width: 75%;
     @media (max-width: 600px) {
-        width: 90%
+        width: 100%
     }
 }

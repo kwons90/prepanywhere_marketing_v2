@@ -1,6 +1,6 @@
 import classes from './PrepBox-section.module.css';
 import Textbooks from './../../assets/images/textbooks_dalle2.png';
-import iPad from './../../assets/images/iPad_black.png';
+import iPad from './../../assets/images/iPad_black7.png';
 
 
 const PrepBoxSection = () => {
@@ -13,18 +13,8 @@ const PrepBoxSection = () => {
                 <h2>Get Tutored on PrepBox</h2>
             </div>     
             <div className={classes.container}>
-                <a href="https://app.prepanywhere.com/student/prep/textbooks" className={classes.product}>
-                    <div className={classes.imgLeft}>    
-                        <p className={classes.des}>Have an iPad? <br/> First session is on us</p>
-                        <div className={classes.buttons}>
-                            <a className={classes.signup} href="https://studentprepbox.paperform.co">
-                                <span>Try PrepBox</span>
-                            </a>
-                        </div>
-                    </div>
-                </a>
-                <a href="https://prepbox.io" className={classes.product}>
-                    <div className={classes.imgRight}>
+                <a href="https://prepbox.io">
+                    <div>
                         <img className={classes.image} src={iPad} alt="iPad" />
                     </div>
                 </a>
