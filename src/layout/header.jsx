@@ -37,23 +37,6 @@ const Header = () => {
             <a href="/about" className={classes.open_menu}>
               <span>About</span>
             </a>
-            <div className={classes.nav_menu} id="mobile_menu">
-              {/* <a className={classes.mobile_home} href="/">
-                <span>Home</span>
-              </a>
-              <a className={classes.mobile_about} href="/about">
-                <span>About</span>
-              </a>
-              <a className={classes.mobile_bookshelf} href="https://app.prepanywhere.com/student/prep/textbooks">
-                <span>Bookshelf</span>
-              </a> */}
-              {/* <a className={classes.mobile_login} href="https://app.prepanywhere.com/login">
-                <span>Login</span>
-              </a> */}
-              {/* <div className={classes.close_menu}>
-                <span onClick={navClose}>X</span>
-              </div> */}
-            </div>
           </div>
           <a className={classes.logo} href="/"></a>
           <nav className="headerNav">

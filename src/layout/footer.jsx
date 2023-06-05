@@ -3,10 +3,10 @@ import { Link } from 'react-scroll';
 
 import PrepLogo from './../assets/images/full_logo.svg';
 // import FooterLogo from './../assets/images/footer-logo.svg';
-import Youtube from './../assets/icons/Ytube.png';
-import Instagram from './../assets/icons/inta.png';
-import Linkedin from './../assets/icons/linkedin.png';
-import Twitter from './../assets/icons/twitter.png';
+import Youtube from './../assets/icons/Youtube.svg';
+import Instagram from './../assets/icons/Instagram.svg';
+import Linkedin from './../assets/icons/LinkedIn.svg';
+import TikTok from './../assets/icons/TikTok.svg';
 
 import classes from './footer.module.css';
 
@@ -67,14 +67,14 @@ const Footer = () => {
                                     target='_blank'
                                     rel='noopener noreferrer'
                                 >
-                                    <img src={Linkedin} alt='Linkedin icon' />
+                                    <img width='80%' src={Linkedin} alt='Linkedin icon' />
                                 </a>
                             </li>
-                            {/* <li>
+                            <li>
                                 <a href='#' target='_blank'>
-                                    <img src={Twitter} alt='Twitter icon' />
+                                    <img width='80%' src={TikTok} alt='TikTok icon' />
                                 </a>
-                            </li> */}
+                            </li>
                             {/* <li>
                                 <a href='#' target='_blank'>
                                     <img src={Slack} alt='Slack icon' />
@@ -86,32 +86,6 @@ const Footer = () => {
                         <ul className={classes['content__links-list']}>
                         </ul>
                         <ul className={classes['content__links-list']}>
-                            {/* <li>
-                                <a
-                                    href='https://docs.google.com/document/d/1Rfj4Wr1fdJtcz1z1IbBZXH-4RhBQSWvKehl8034dkpM/edit'
-                                    target='_blank'
-                                    rel='noopener noreferrer'
-                                >
-                                    Terms of Use
-                                </a>
-                            </li>
-                            <li>
-                                <a
-                                    href='https://docs.google.com/document/d/15plLIrlTlMbqiwlLCWeSOIKKNVhM2r11xYJyXSmhGC8/edit'
-                                    target='_blank'
-                                    rel='noopener noreferrer'
-                                >
-                                    Privacy Policy
-                                </a>
-                            </li>
-                            {/* <li>
-                                <a
-                                    href='https://calendly.com/d/hw9-7wv-n3y/assessment?month=2023-04'
-                                    target='_blank'
-                                >
-                                    Become an Affiliate
-                                </a>
-                            </li> */}
                         </ul>
                     </div>
                 </div>

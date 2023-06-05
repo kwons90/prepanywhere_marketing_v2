@@ -9,10 +9,6 @@ const Home = () => {
     return (
         <>
             <main>
-                {/* <section id='students-section'>
-                    <StudentSection />
-                    <TestimonialsSection />
-                </section> */}
                 <section id='product-section'>
                     <HeroSection />
                     <HowItWorksSection />

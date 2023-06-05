@@ -5,9 +5,9 @@ const ProductSection = () => {
     return (
         <div className={classes.section}>
             <div className={classes.container}>
-            {/* <div className={classes.header}>
-                <h4>Want to get ahead?</h4>
-            </div> */}
+            <div className={classes.header}>
+                <h4>Here's a short demo</h4>
+            </div>
             <div className={classes.header2}>
                 <h2>How PrepBox works</h2>
             </div>
