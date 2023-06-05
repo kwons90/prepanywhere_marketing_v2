@@ -19,12 +19,13 @@ const AboutSection = () => {
                 </a>
                 <a href="https://prepbox.io">
                     <div className={classes.description}>
-                        <p>I created PrepAnywhere to help students to improve their math grades.</p>
+                        <p>I created PrepAnywhere to help students to improve their math</p>
+                        <br/>
                         <p>After receiving much love and support, I have decided to make PrepAnywhere free</p>
                         <br/>
-                        <p>I have also launched PrepBox, the leading math tutoring avaiable on an iPad</p>
+                        <p>And if you want to study with me, you can attend my tutoring sessions on PrepBox</p>
                         <br/>
-                        <p>To all my PrepAnywhere fans, book your free session with me today!</p>
+                        <p>All you need is an iPad - book your free trial session with me today!</p>
                     </div>
                 </a>
             </div>
