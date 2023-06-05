@@ -57,3 +57,10 @@
     /* border-radius: 10%; */
     /* border: none; */
   }
+
+  @media (max-width: 500px) {
+    .container {
+      display:flex;
+      flex-direction: column;
+    }
+  }
