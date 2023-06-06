@@ -1,5 +1,5 @@
 import classes from './hero-section.module.css';
-import Textbooks from './../../assets/images/Textbooks4.png';
+import Textbooks from './../../assets/images/Textbooks5.png';
 import iPad from './../../assets/images/iPad_black5.png';
 
 
