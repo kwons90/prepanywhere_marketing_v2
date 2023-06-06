@@ -23,7 +23,7 @@ const AboutSection = () => {
                         <br/>
                         <p>After receiving much love and support, I have also launched a math tutoring app, PrepBox</p>
                         <br/>
-                        <p>And if you want to study with me, you can attend my tutoring sessions on PrepBox</p>
+                        <p>If you want to study with me, you can attend my tutoring sessions on PrepBox</p>
                         <br/>
                         <p>All you need is an iPad - book your free trial session with me today!</p>
                     </div>
