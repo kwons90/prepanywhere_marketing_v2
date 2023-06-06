@@ -1,5 +1,4 @@
 import { Link as RouteLink } from 'react-router-dom';
-import { Link } from 'react-scroll';
 
 import PrepLogo from './../assets/images/full_logo.svg';
 // import FooterLogo from './../assets/images/footer-logo.svg';
@@ -71,7 +70,7 @@ const Footer = () => {
                                 </a>
                             </li>
                             <li>
-                                <a href='#' target='_blank'>
+                                <a href='https://www.tiktok.com/@prepanywhere' target='_blank'>
                                     <img width='80%' src={TikTok} alt='TikTok icon' />
                                 </a>
                             </li>

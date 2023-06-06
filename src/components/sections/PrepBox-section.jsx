@@ -1,5 +1,4 @@
 import classes from './PrepBox-section.module.css';
-import Textbooks from './../../assets/images/textbooks_dalle2.png';
 import iPad from './../../assets/images/iPad_black7.png';
 
 
