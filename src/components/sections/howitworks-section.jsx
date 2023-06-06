@@ -6,7 +6,7 @@ const TutorsSection = () => {
     return (
         <section className={classes.section}>
             <div className={classes.header}>
-                <h4>Our videos are FREE for the summer</h4>
+                <h4>Textbook Solutions</h4>
             </div>
             <div className={classes.header2}>
                 <h2>Here's How It Works</h2>

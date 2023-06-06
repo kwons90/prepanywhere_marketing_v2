@@ -21,7 +21,7 @@ const AboutSection = () => {
                     <div className={classes.description}>
                         <p>I created PrepAnywhere to help students to improve their math</p>
                         <br/>
-                        <p>After receiving much love and support, I have decided to make PrepAnywhere free</p>
+                        <p>After receiving much love and support, I have also launched a math tutoring app, PrepBox</p>
                         <br/>
                         <p>And if you want to study with me, you can attend my tutoring sessions on PrepBox</p>
                         <br/>
