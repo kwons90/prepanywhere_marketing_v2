@@ -1,12 +1,9 @@
-
 import AboutSection from '../components/sections/about-section';
 
 const About = () => {
     return (
         <>
-            <main>
-                <AboutSection />
-            </main>
+            <AboutSection />
         </>
     );
 };

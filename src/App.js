@@ -3,10 +3,7 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import Layout from './layout/layout';
 import Home from './pages/home';
 import About from './pages/about';
-
-// If you would like to add more pages, import and add in the (children) array of objects similar to the bellow code that I commentted it out
-// => Path must be specified for other pages
-// Layout component contains Header Navigation & Footer
+import NotFound from './pages/not-found';
 
 const router = createBrowserRouter([
     {
@@ -17,6 +14,7 @@ const router = createBrowserRouter([
             { path: '/about', element: <About /> },
         ],
     },
+    { path: '*', element: <NotFound /> },
 ]);
 
 function App() {
