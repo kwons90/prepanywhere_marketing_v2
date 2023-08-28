@@ -7,7 +7,7 @@ import Instagram from './../assets/icons/Instagram.svg';
 import Linkedin from './../assets/icons/LinkedIn.svg';
 import TikTok from './../assets/icons/TikTok.svg';
 
-import classes from './footer.module.css';
+import classes from './old-footer.module.css';
 
 const Footer = () => {
     return (
@@ -15,7 +15,7 @@ const Footer = () => {
             <div className={classes.container}>
                 <div className={classes.assessment}>
                     <div className={classes['assessment__content']}>
-                        <img className = {classes['logo']}src={PrepLogo} alt='icon' />
+                        <img className={classes['logo']} src={PrepLogo} alt='icon' />
                         <div className={classes['assessment__text']}>
                             <h5>Let’s get in touch</h5>
                             <p>
@@ -27,18 +27,20 @@ const Footer = () => {
                     <a
                         href='https://studentprepbox.paperform.co'
                         target='_blank'
-                        rel='noopener noreferrer'
+                        rel='noreferrer'
                         className={classes['assessment__btn']}
                     >
                         Schedule assessment
                     </a>
                 </div>
+
                 <div className={classes.content}>
                     <div className={classes['content__texts']}>
                         <RouteLink to='/'>{/* <img src={FooterLogo} alt='Logo' /> */}</RouteLink>
                         <h6>All your math solutions, here</h6>
                         <p>
-                            Look at premium solution videos to your textbook questions and book a free tutoring class
+                            Look at premium solution videos to your textbook questions and book a
+                            free tutoring class
                         </p>
 
                         <ul className={classes['content__social']}>
@@ -70,7 +72,11 @@ const Footer = () => {
                                 </a>
                             </li>
                             <li>
-                                <a href='https://www.tiktok.com/@prepanywhere' target='_blank'>
+                                <a
+                                    href='https://www.tiktok.com/@prepanywhere'
+                                    rel='noreferrer'
+                                    target='_blank'
+                                >
                                     <img width='80%' src={TikTok} alt='TikTok icon' />
                                 </a>
                             </li>
@@ -82,10 +88,8 @@ const Footer = () => {
                         </ul>
                     </div>
                     <div className={classes['content__links']}>
-                        <ul className={classes['content__links-list']}>
-                        </ul>
-                        <ul className={classes['content__links-list']}>
-                        </ul>
+                        <ul className={classes['content__links-list']}></ul>
+                        <ul className={classes['content__links-list']}></ul>
                     </div>
                 </div>
 
