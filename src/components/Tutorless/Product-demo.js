@@ -1,18 +1,18 @@
 import ReactPlayer from 'react-player';
-import classes from './product-section.module.css';
+import classes from './Product-demo.module.css';
 
-const ProductSection = () => {
+const ProductDemo = () => {
     return (
         <div className={classes.section}>
             <div className={classes.container}>
-            <div className={classes.header}>
-                <h2>Textbook solutions are <span className='text-blue'>ending on September 30th</span></h2>
+            <div className={classes.header2}>
+                <h2>Have an iPad? <span className='text-blue'> PrepBox A.I. is free</span></h2>
             </div>
                 <div className={classes.content}>
                     <ReactPlayer
-                        url='https://www.youtube.com/embed/ih3hNg5Y-4c'
-                        width='70%'
-                        height='90%'
+                        url="https://www.youtube.com/embed/RRYl1rrxDGk?si=7ywJpGcbDI-cYHkh"
+                        width='90%'
+                        height='100%'
                         display='flex'
                         justify-content='center'
                         config={{
@@ -27,4 +27,4 @@ const ProductSection = () => {
     );
 };
 
-export default ProductSection;
+export default ProductDemo;

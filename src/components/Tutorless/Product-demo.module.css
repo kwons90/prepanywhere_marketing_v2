@@ -1,6 +1,5 @@
 .section {
-    margin-top: 70px;
-    padding: 53px 0;
+    padding-top: 120px;
 }
 
 .container {
@@ -11,7 +10,7 @@
 
 .container h2 {
     text-align: center;
-    margin-bottom: 50px;
+    margin-bottom: 10px;
 }
 
 .header {
@@ -22,10 +21,10 @@
 }
 
 .header2 {
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    padding: 0px 0px 50px 0px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding: 0px 0px 50px 0px;
 }
 
 .content {
@@ -33,13 +32,9 @@
     height: 584px;
     border-radius: 24px 24px 0px 0px;
     overflow: hidden;
-    display: flex;
-    justify-content: center;
+    display:flex;
+    justify-content:center;
 }
-
-.text-blue{
-    color: #398FE5;
-  }
 
 @media (max-width: 991.98px) {
     .content {
@@ -49,7 +44,7 @@
 
 @media (max-width: 767.98px) {
     .section {
-        padding: 80px 0;
+        padding-top: 80px;
     }
     .container h2 {
         margin-bottom: 60px;

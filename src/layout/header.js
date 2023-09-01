@@ -61,10 +61,10 @@ const Header = () => {
                                 </li>
                                 <li onClick={hideMenu}>
                                     <a
-                                        href='https://www.prepbox.io/product/prepbox-ai'
+                                        href='/prepbox-ai'
                                         className={classes['header__nav-link']}
                                     >
-                                        PrpBox
+                                        PrepBox A.I.
                                     </a>
                                 </li>
                                 <li onClick={hideMenu}>
@@ -72,15 +72,15 @@ const Header = () => {
                                         href='https://app.prepanywhere.com/student/prep/textbooks'
                                         className={classes['header__nav-link']}
                                     >
-                                        Bookshelf
+                                        Bookshelf (ending Sept. 30th)
                                     </a>
                                 </li>
                             </ul>
 
                             <div className={classes['header__nav-button']}>
                                 <PrimaryButton
-                                    label='Try PrepBox'
-                                    linkTo='https://www.prepbox.io'
+                                    label='Download PrepBox'
+                                    linkTo='https://www.prepanywhere.com/prepbox-ai'
                                 />
                             </div>
                         </div>

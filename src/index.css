@@ -5,6 +5,10 @@ html {
     overflow-x: hidden;
 }
 
+.text-blue{
+    color: #398FE5;
+}
+
 *,
 *::after,
 *::before {
