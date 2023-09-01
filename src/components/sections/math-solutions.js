@@ -12,7 +12,7 @@ const MathSolutions = () => {
                 <div className={classes.download_button}>
                     <PrimaryButton
                         label='Download PrepBox'
-                        linkTo='https://www.prepanywhere.com/prepbox-ai'
+                        linkTo='https://apps.apple.com/en/app/prepbox/id1635011155'
                     />
                 </div>
                 <div className={classes['solutions-content']}>

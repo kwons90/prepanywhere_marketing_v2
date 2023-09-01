@@ -80,7 +80,7 @@ const Header = () => {
                             <div className={classes['header__nav-button']}>
                                 <PrimaryButton
                                     label='Download PrepBox'
-                                    linkTo='https://www.prepanywhere.com/prepbox-ai'
+                                    linkTo='https://apps.apple.com/en/app/prepbox/id1635011155'
                                 />
                             </div>
                         </div>
