@@ -10,7 +10,7 @@ const ProductSection = () => {
             </div>
                 <div className={classes.content}>
                     <ReactPlayer
-                        url='https://www.youtube.com/embed/ih3hNg5Y-4c'
+                        url='https://www.youtube.com/embed/eRVNZUq9B4w?si=Gj3YEsAIftuCtSRI'
                         width='70%'
                         height='90%'
                         display='flex'
