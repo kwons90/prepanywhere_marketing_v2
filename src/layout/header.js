@@ -1,108 +1,47 @@
 import { useState, useEffect } from 'react';
 
-import { Link } from 'react-router-dom';
-import Logo from './../assets/images/logo.png';
 import PrimaryButton from '../components/buttons/primary-button';
 import classes from './header.module.css';
+import { Link as RouteLink } from 'react-router-dom';
+import { Link } from 'react-scroll';
+
+import { ReactComponent as Logo } from './../assets/images/logo.png';
 
 const Header = () => {
-    const [showMenu, setShowMenu] = useState(false);
-    const [isSmallHeader, setIsSmallHeader] = useState(false);
-
-    const toggleMenu = () => {
-        setShowMenu((prevState) => !prevState);
-    };
-
-    const hideMenu = () => {
-        setShowMenu(false);
-    };
-
-    useEffect(() => {
-        const handleScroll = () => {
-            setIsSmallHeader(window.pageYOffset > 80);
-        };
-
-        window.addEventListener('scroll', handleScroll);
-        return () => {
-            window.removeEventListener('scroll', handleScroll);
-        };
-    }, []);
 
     return (
-        <>
-            <header
-                className={`${classes.header} ${
-                    isSmallHeader ? `${classes['header-shadow']}` : '80px'
-                }`}
-                style={{ height: `${isSmallHeader ? '60px' : '80px'}` }}
-            >
-                <div className='container'>
-                    <nav className={classes['header__nav']}>
-                        <Link to='/' className={classes['header__nav-logo']} onClick={hideMenu}>
-                            <img src={Logo} alt='PrepAnywhere Logo' />
-                        </Link>
-
-                        <div
-                            className={`${classes['header__nav-wrapper']} ${
-                                showMenu ? `${classes.show}` : ''
-                            }`}
-                            style={{ top: `${isSmallHeader ? '60px' : '80px'}` }}
-                        >
-                            <ul className={`${classes['header__nav-list']} `}>
-                                <li onClick={hideMenu}>
-                                    <Link to='/' className={classes['header__nav-link']}>
-                                        Home
-                                    </Link>
-                                </li>
-                                <li onClick={hideMenu}>
-                                    <Link to='/about' className={classes['header__nav-link']}>
-                                        About
-                                    </Link>
-                                </li>
-                                <li onClick={hideMenu}>
-                                    <a
-                                        href='/prepbox-ai'
-                                        className={classes['header__nav-link']}
-                                    >
-                                        PrepBox A.I.
-                                    </a>
-                                </li>
-                                <li onClick={hideMenu}>
-                                    <a
-                                        href='https://app.prepanywhere.com/student/prep/textbooks'
-                                        className={classes['header__nav-link']}
-                                    >
-                                        Bookshelf (ending Sept. 30th)
-                                    </a>
-                                </li>
-                            </ul>
-
-                            <div className={classes['header__nav-button']}>
-                                <PrimaryButton
-                                    label='Download PrepBox'
-                                    linkTo='https://apps.apple.com/en/app/prepbox/id1635011155'
-                                />
-                            </div>
-                        </div>
-                        <button
-                            type='button'
-                            className={`${classes['header__toggler']} ${
-                                showMenu ? `${classes.open}` : ''
-                            }`}
-                            onClick={toggleMenu}
-                        >
-                            <span className={classes['header__toggler-top']}></span>
-                            <span className={classes['header__toggler-middle']}></span>
-                            <span className={classes['header__toggler-bottom']}></span>
-                        </button>
-                    </nav>
-                </div>
-            </header>
-            <div
-                className={`${classes['header__backdrop']} ${showMenu ? `${classes.show}` : ''}`}
-                onClick={hideMenu}
-            ></div>
-        </>
+        <div className={classes.schools_header}>
+        <div className={classes.header_nav}>
+          <div className={classes.mobile_nav}>
+            <a href="/about" className={classes.open_menu}>
+              <span>About</span>
+            </a>
+          </div>
+          <a className={classes.logo} href="/"></a>
+          <nav className="headerNav">
+            <a className={classes.home} href="/">
+              <span>Home</span>
+            </a>
+            <a className={classes.about} href="/about">
+              <span>About</span>
+            </a>
+            <a className={classes.about} href="/prepbox-ai">
+              <span>PrepBox A.I.</span>
+            </a>
+            <a className={classes.bookshelf} href="https://app.prepanywhere.com/student/prep/textbooks">
+              <span>Bookshelf (ending Sept. 30)</span>
+            </a>
+          </nav>
+          <div className={classes.buttons}>
+            {/* <a className={classes.log_in} href="https://app.prepanywhere.com/login">
+              <span>Log In </span>
+            </a> */}
+            <a className={classes.signup} href="https://prepbox.io">
+              <span>Try PrepBox</span>
+            </a>
+          </div>
+        </div>
+      </div>
     );
 };
 
