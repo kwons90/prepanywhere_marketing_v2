@@ -11,8 +11,8 @@ const MathSolutions = () => {
                 <h2 className='text-center'> <span className='text-blue'>Free math practice on the iPad</span></h2>
                 <div className={classes.download_button}>
                     <PrimaryButton
-                        label='Download PrepBox'
-                        linkTo='https://apps.apple.com/en/app/prepbox/id1635011155'
+                        label='Try PrepBox'
+                        linkTo='https://prepbox.io'
                     />
                 </div>
                 <div className={classes['solutions-content']}>
